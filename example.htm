@@ -1,0 +1,43 @@
+<html>
+
+<!-- requires jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- requires this small css -->
+<link rel="stylesheet" type="text/css" href="jSlide.css">
+
+<!-- you can even use ul and li tags instead of divs if you want -->
+<div class="jscreen-container" id="my-slider" style="text-align:center">
+
+  <div class="jscreen">
+    <button style="float:right" onclick="slide_to_right('my-slider')">jSlide &gt;</button>
+	<h1>Screen 1</h1>
+  </div>
+  
+  <div class="jscreen">
+    <button style="float:left" onclick="slide_to_left('my-slider')">jSlide &lt;</button> <button style="float:right" onclick="slide_to_right('my-slider')">jSlide &gt;</button>
+	<h1>Screen 2</h1>
+  </div>
+  
+  <!-- this is going to be the initial screen  -->
+  <div class="jscreen jinitial">
+    <button style="float:left" onclick="slide_to_left('my-slider')">jSlide &lt;</button> <button style="float:right" onclick="slide_to_right('my-slider')">jSlide &gt;</button>
+	<h1>Screen 3</h1>
+  </div>
+  
+  <div class="jscreen">
+    <button style="float:left" onclick="slide_to_left('my-slider')">jSlide &lt;</button> <button style="float:right" onclick="slide_to_right('my-slider')">jSlide &gt;</button>
+	<h1>Screen 4</h1>
+  </div>
+  
+  <div class="jscreen">
+    <button style="float:left" onclick="slide_to_left('my-slider')">jSlide &lt;</button>
+	<h1>Screen 5</h1>
+  </div>
+
+</div>
+
+
+<!-- don't forget the main jSlider script -->
+<script src="jSlide.js"></script>
+</html>
